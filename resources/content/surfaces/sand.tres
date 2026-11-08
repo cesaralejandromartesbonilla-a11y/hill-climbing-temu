@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="SurfaceProfile" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/content/surface_profile.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "sand"
+display_name = "Arena"
+friction_multiplier = 0.65
+lateral_grip_multiplier = 0.5
+drive_multiplier = 0.6
+surface_color = Color(0.85, 0.75, 0.55, 1)
+particle_type = "sand"
+particle_enum = "sand"
+drag_multiplier = 0.2
